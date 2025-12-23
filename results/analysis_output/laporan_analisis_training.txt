@@ -1,0 +1,74 @@
+======================================================================
+LAPORAN ANALISIS HASIL TRAINING YOLO - DETEKSI KERSEN
+======================================================================
+
+Tanggal Analisis: 2025-12-23 13:11:39
+Total Epochs: 89
+Kelas: mentah, setengah_matang, matang
+
+----------------------------------------------------------------------
+1. RINGKASAN TRAINING LOSS
+----------------------------------------------------------------------
+   Total Training Loss Awal: 4.80775
+   Total Training Loss Akhir: 1.89567
+   Penurunan: 60.57%
+
+----------------------------------------------------------------------
+2. RINGKASAN VALIDATION LOSS
+----------------------------------------------------------------------
+   Total Validation Loss Awal: 7.57530
+   Total Validation Loss Akhir: 1.47619
+   Penurunan: 80.51%
+
+----------------------------------------------------------------------
+3. RINGKASAN METRICS (PERFORMA MODEL)
+----------------------------------------------------------------------
+
+   Precision:
+      - Nilai Awal: 0.00279
+      - Nilai Akhir: 0.99266
+      - Nilai Maksimum: 1.00000 (Epoch 4)
+
+   Recall:
+      - Nilai Awal: 0.64530
+      - Nilai Akhir: 0.86752
+      - Nilai Maksimum: 0.86752 (Epoch 3)
+
+   mAP@50:
+      - Nilai Awal: 0.09833
+      - Nilai Akhir: 0.86746
+      - Nilai Maksimum: 0.87020 (Epoch 77)
+
+   mAP@50-95:
+      - Nilai Awal: 0.02209
+      - Nilai Akhir: 0.81650
+      - Nilai Maksimum: 0.84439 (Epoch 69)
+
+   F1-Score:
+      - Nilai Akhir: 0.92588
+      - Nilai Maksimum: 0.92676 (Epoch 71)
+
+----------------------------------------------------------------------
+4. F1-SCORE
+----------------------------------------------------------------------
+   F1-Score Akhir: 0.92588
+   F1-Score Maksimum: 0.92676 (Epoch 71)
+
+----------------------------------------------------------------------
+5. ANALISIS OVERFITTING
+----------------------------------------------------------------------
+   Training Loss (Final): 1.89567
+   Validation Loss (Final): 1.47619
+   Gap (Val - Train): -0.41948
+   ✅ Status: MODEL BAIK (gap < 0.2)
+   💡 Saran: Training berjalan dengan baik
+
+----------------------------------------------------------------------
+6. REKOMENDASI
+----------------------------------------------------------------------
+   Best Model berdasarkan mAP50-95: Epoch 69 (mAP: 0.84439)
+   Best Model berdasarkan F1-Score: Epoch 71 (F1: 0.92676)
+
+======================================================================
+END OF REPORT
+======================================================================

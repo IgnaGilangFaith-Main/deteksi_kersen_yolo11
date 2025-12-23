@@ -111,7 +111,7 @@ print("\n💾 Menyimpan model terbaik...")
 path_best_model = os.path.join(FOLDER_RESULTS, 'kersen_v2', 'weights', 'best.pt')
 
 if os.path.exists(path_best_model):
-    path_simpan = os.path.join(FOLDER_MODELS, 'yolo11n_kersen_best.pt')
+    path_simpan = os.path.join(FOLDER_MODELS, 'yolo11s_kersen_best.pt')
     import shutil
     shutil.copy2(path_best_model, path_simpan)
     print(f"✅ Model disimpan: {path_simpan}")
