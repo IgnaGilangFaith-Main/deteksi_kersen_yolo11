@@ -51,7 +51,7 @@ else:
 print()
 
 # Load model - gunakan YOLOv11s terbaru untuk akurasi maksimal
-MODEL_PATH = r"models/yolo11s_kersen_best.pt"  # Model terbaru (16 Des 2025)
+MODEL_PATH = r"models/yolo11s_kersen_best.pt"
 model = None
 
 print(f"📁 Model path: {MODEL_PATH}")
